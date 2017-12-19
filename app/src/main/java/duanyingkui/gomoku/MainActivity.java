@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
         Button game_fight = (Button) findViewById(R.id.game_fight);
         Button game_help = (Button) findViewById(R.id.game_help);
